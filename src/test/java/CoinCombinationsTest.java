@@ -22,4 +22,10 @@ public class CoinCombinationsTest {
     Integer[] coinArray = {1, 1, 1, 0};
     assertEquals(coinArray, testCoinCombinations.coinCounter(16));
   }
+  @Test
+  public void coinCounter_CountNumberOfQuarters_1() {
+    CoinCombinations testCoinCombinations = new CoinCombinations();
+    Integer[] coinArray = {4, 1, 1, 1};
+    assertEquals(coinArray, testCoinCombinations.coinCounter(44));
+  }
 }
