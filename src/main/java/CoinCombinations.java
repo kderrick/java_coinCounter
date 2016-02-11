@@ -11,6 +11,9 @@ public class CoinCombinations {
 public static Integer[] coinCounter(Integer userNumber) {
   Integer[] coinArray = {0, 0, 0, 0};
   Integer remainder = 0;
+  if(userNumber < 0) {
+    userNumber = Math.abs(userNumber);
+  }
   while(userNumber != 0) {
     if(userNumber >= 25) {
       coinArray[3] = userNumber / 25;

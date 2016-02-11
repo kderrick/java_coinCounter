@@ -28,4 +28,10 @@ public class CoinCombinationsTest {
     Integer[] coinArray = {4, 1, 1, 1};
     assertEquals(coinArray, testCoinCombinations.coinCounter(44));
   }
+  @Test
+  public void coinCounter_CountNumberConvertFromNegative_44() {
+    CoinCombinations testCoinCombinations = new CoinCombinations();
+    Integer[] coinArray = {4, 1, 1, 1};
+    assertEquals(coinArray, testCoinCombinations.coinCounter(-44));
+  }
 }
