@@ -3,17 +3,17 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta http-equiv="x-ua-compatible" content="IE=edge"/>
-<title>Test results - Class CoinCombinationsTest</title>
+<title>Test results - Class CoinCombinationsIntegrationTest</title>
 <link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
 <link href="../css/style.css" rel="stylesheet" type="text/css"/>
 <script src="../js/report.js" type="text/javascript"></script>
 </head>
 <body>
 <div id="content">
-<h1>Class CoinCombinationsTest</h1>
+<h1>Class CoinCombinationsIntegrationTest</h1>
 <div class="breadcrumbs">
 <a href="../index.html">all</a> &gt; 
-<a href="../packages/default-package.html">default-package</a> &gt; CoinCombinationsTest</div>
+<a href="../packages/default-package.html">default-package</a> &gt; CoinCombinationsIntegrationTest</div>
 <div id="summary">
 <table>
 <tr>
@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">5</div>
+<div class="counter">2</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0s</div>
+<div class="counter">0.306s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,6 +63,9 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
+<li>
+<a href="#tab1">Standard error</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -75,31 +78,34 @@
 </tr>
 </thead>
 <tr>
-<td class="success">coinCounter_CountNumberConvertFromNegative_44</td>
-<td>0s</td>
+<td class="success">playerOneWins</td>
+<td>0.059s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">coinCounter_CountNumberOfDimes_1</td>
-<td>0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">coinCounter_CountNumberOfNickels_1</td>
-<td>0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">coinCounter_CountNumberOfPennys_4</td>
-<td>0s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">coinCounter_CountNumberOfQuarters_1</td>
-<td>0s</td>
+<td class="success">rootTest</td>
+<td>0.247s</td>
 <td class="success">passed</td>
 </tr>
 </table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard error</h2>
+<span class="code">
+<pre>[Thread-4] INFO spark.webserver.SparkServer - == Spark has ignited ...
+[Thread-4] INFO spark.webserver.SparkServer - &gt;&gt; Listening on 0.0.0.0:4567
+[Thread-4] INFO org.eclipse.jetty.server.Server - jetty-9.0.2.v20130417
+[Thread-4] INFO org.eclipse.jetty.server.ServerConnector - Started ServerConnector@5da99e08{HTTP/1.1}{0.0.0.0:4567}
+Feb 11, 2016 1:37:33 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: &quot;number&quot;, creating a text input
+Feb 11, 2016 1:37:33 PM com.gargoylesoftware.htmlunit.html.InputElementFactory createElementNS
+INFO: Bad input type: &quot;number&quot;, creating a text input
+[Test worker] INFO spark.webserver.SparkServer - &gt;&gt;&gt; Spark shutting down ...
+[Test worker] INFO org.eclipse.jetty.server.Server - Graceful shutdown org.eclipse.jetty.server.Server@27f93a68 by 
+[Test worker] INFO org.eclipse.jetty.server.ServerConnector - Stopped ServerConnector@5da99e08{HTTP/1.1}{0.0.0.0:4567}
+[Test worker] INFO spark.webserver.SparkServer - done
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">

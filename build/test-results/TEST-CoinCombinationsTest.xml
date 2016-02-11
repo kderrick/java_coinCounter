@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CoinCombinationsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-11T18:13:56" hostname="epicodus-51.local" time="0.002">
+<testsuite name="CoinCombinationsTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-02-11T21:37:33" hostname="epicodus-51.local" time="0.003">
   <properties/>
-  <testcase name="coinCounter_CountNumberOfNickels_1" classname="CoinCombinationsTest" time="0.001"/>
+  <testcase name="coinCounter_CountNumberOfNickels_1" classname="CoinCombinationsTest" time="0.0"/>
   <testcase name="coinCounter_CountNumberOfQuarters_1" classname="CoinCombinationsTest" time="0.0"/>
   <testcase name="coinCounter_CountNumberOfPennys_4" classname="CoinCombinationsTest" time="0.0"/>
   <testcase name="coinCounter_CountNumberConvertFromNegative_44" classname="CoinCombinationsTest" time="0.0"/>
