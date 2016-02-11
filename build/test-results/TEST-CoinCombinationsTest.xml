@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CoinCombinationsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2016-02-11T17:56:30" hostname="epicodus-51.local" time="0.003">
+  <properties/>
+  <testcase name="coinCounter_CountNumberOfNickels_1" classname="CoinCombinationsTest" time="0.003"/>
+  <testcase name="coinCounter_CountNumberOfPennys_4" classname="CoinCombinationsTest" time="0.0"/>
+  <testcase name="coinCounter_CountNumberOfDimes_1" classname="CoinCombinationsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

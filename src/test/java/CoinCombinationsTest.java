@@ -7,7 +7,19 @@ public class CoinCombinationsTest {
   @Test
   public void coinCounter_CountNumberOfPennys_4() {
     CoinCombinations testCoinCombinations = new CoinCombinations();
-    assertEquals(4, testCoinCombinations.coinCounter(4));
+    Integer[] coinArray = {4, 0, 0, 0};
+    assertEquals(coinArray, testCoinCombinations.coinCounter(4));
   }
-
+  @Test
+  public void coinCounter_CountNumberOfNickels_1() {
+    CoinCombinations testCoinCombinations = new CoinCombinations();
+    Integer[] coinArray = {1, 1, 0, 0};
+    assertEquals(coinArray, testCoinCombinations.coinCounter(6));
+  }
+  @Test
+  public void coinCounter_CountNumberOfDimes_1() {
+    CoinCombinations testCoinCombinations = new CoinCombinations();
+    Integer[] coinArray = {1, 1, 1, 0};
+    assertEquals(coinArray, testCoinCombinations.coinCounter(16));
+  }
 }
