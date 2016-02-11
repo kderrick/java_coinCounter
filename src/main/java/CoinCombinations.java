@@ -12,7 +12,10 @@ public static Integer[] coinCounter(Integer userNumber) {
   Integer[] coinArray = {0, 0, 0, 0};
   Integer remainder = 0;
   while(userNumber != 0) {
-    if (userNumber >= 10) {
+    if(userNumber >= 25) {
+      coinArray[3] = userNumber / 25;
+      userNumber = userNumber % 25;
+    } else if (userNumber >= 10) {
       coinArray[2] = userNumber / 10;
       userNumber = userNumber % 10;
     } else if(userNumber >= 5) {
@@ -26,24 +29,3 @@ public static Integer[] coinCounter(Integer userNumber) {
   return coinArray;
   }
 }
-
-// public static Integer[] coinCounter(Integer userNumber) {
-//   Integer[] coinArray = {0, 0, 0, 0};
-//   Integer remainder = 0;
-//   while(userNumber != 0) {
-//     if(userNumber >= 25) {
-//       coinArray[3] = userNumber / 25;
-//       userNumber = userNumber % 25;
-//     } else if (userNumber >= 10) {
-//     coinArray[2] = userNumber / 10;
-//     userNumber = userNumber % 10;
-//     } else if (userNumber >= 5){
-//       coinArray[1] = userNumber / 5;
-//       userNumber = userNumber % 5;
-//     } else {
-//       coinArray[0] = userNumber;
-//       userNumber = 0;
-//     }
-//   }
-//     return coinArray;
-// }
